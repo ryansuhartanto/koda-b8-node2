@@ -1,15 +1,23 @@
 {
-  "name": "node2",
-  "version": "1.0.0",
-  "repository": "https://github.com/ryansuhartanto/koda-b8-node2",
-  "license": "MIT",
-  "author": "Ryan Suhartanto <suhartanto@kekkon.nexus>",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "moment": "^2.30.1"
-  }
+	"name": "node2",
+	"version": "1.0.0",
+	"repository": "https://github.com/ryansuhartanto/koda-b8-node2",
+	"license": "MIT",
+	"author": "Ryan Suhartanto <suhartanto@kekkon.nexus>",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier . --check",
+		"format:fix": "prettier . --write"
+	},
+	"dependencies": {
+		"moment": "^2.30.1"
+	},
+	"devDependencies": {
+		"@sxzz/eslint-config": "^8.1.0",
+		"eslint": "^10.4.0",
+		"prettier": "^3.8.3"
+	}
 }
