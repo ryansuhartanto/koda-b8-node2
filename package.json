@@ -1,11 +1,11 @@
 {
-	"name": "javascript5",
+	"name": "node2",
 	"version": "1.0.0",
 	"private": true,
 	"description": "",
 	"license": "MIT",
 	"author": "Ryan Suhartanto <suhartanto@kekkon.nexus>",
-	"repository": "ryansuhartanto/koda-b8-javascript5",
+	"repository": "ryansuhartanto/koda-b8-node2",
 	"type": "module",
 	"module": "src/index.js",
 	"scripts": {
