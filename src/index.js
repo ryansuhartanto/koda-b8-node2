@@ -7,6 +7,12 @@ const rl = readline.createInterface({
 	output: process.stdout,
 });
 
+/**
+ * Formats date from `DD-MM-YYYY` to `DD/MM/YYYY`
+ * @param {string} date A strict formatted `DD-MM-YYYY`
+ * @returns {string} A formatted `DD/MM/YYYY`
+ * @throws When `date` parameter is not correctly formatted
+ */
 function processDate(date) {
 	date = moment(date, "DD-MM-YYYY", true);
 
