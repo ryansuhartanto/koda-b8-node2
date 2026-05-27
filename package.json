@@ -13,7 +13,11 @@
 		"lint": "oxlint",
 		"lint:fix": "oxlint --fix",
 		"fmt": "oxfmt",
+		"test": "bunx node --test --experimental-test-coverage",
 		"start": "bun run src/index.js"
+	},
+	"dependencies": {
+		"moment": "^2.30"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21",
