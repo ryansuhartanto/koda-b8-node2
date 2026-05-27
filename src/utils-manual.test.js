@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert";
 
-import { processDate } from "./utils.js";
+import { processDate } from "./utils-manual.js";
 
 describe("processDate manual", () => {
 	it("throws on empty parameter", () => {
